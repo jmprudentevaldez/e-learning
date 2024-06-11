@@ -52,7 +52,7 @@ const showLoginExpiredAlert = computed(() => {
         ></div>
         <!-- Start Webkit Text -->
         <div :class="`z-10 w-full max-w-md ${formHasError || formHasWarning || showLoginExpiredAlert ? 'animate-shake' : ''}`">
-          <div class="mb-6 font-menu font-bold leading-tight dark:text-surface-0 sm:text-4xl xl:text-5xl">Webkit (Prime)</div>
+          <div class="mb-6 font-menu font-bold leading-tight dark:text-surface-0 sm:text-4xl xl:text-5xl">E-LEARNING</div>
           <div class="xl:text-md font-normal text-surface-200 dark:text-surface-0 sm:text-sm">
             Nipper holystone six pounders barkadeer rutters Privateer hail-shot warp black spot fore. Knave six pounders
             quarterdeck crack Jennys tea cup starboard aye league lass Sink me heave down.
@@ -62,7 +62,7 @@ const showLoginExpiredAlert = computed(() => {
         <AnimatedFloaters class="hidden lg:flex" />
       </div>
       <div
-        :class="`h-full w-full bg-gradient-to-b
+        :class="`h-full w-full bg-gradient-to-b 
          from-primary-500 to-primary-900 p-8 transition-all duration-500
          dark:from-primary-900 dark:to-primary-950 sm:w-auto
          md:rounded-none lg:flex lg:h-full

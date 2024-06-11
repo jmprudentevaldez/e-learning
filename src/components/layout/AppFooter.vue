@@ -3,7 +3,7 @@
   <div class="flex w-full flex-col">
     <div class="flex items-center justify-between px-4 py-2 text-surface-500">
       <small class="mr-3 justify-self-start text-xs tracking-widest"
-        >&copy; {{ new Date().getFullYear() }} | WebkitPrime | All rights reserved</small
+        >&copy; {{ new Date().getFullYear() }} | E-LEARNING | All rights reserved</small
       >
       <div>
         <i class="pi pi-facebook mr-3"></i>

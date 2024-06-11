@@ -82,7 +82,7 @@ const handleSubmitForm = async () => {
 
 <template>
   <div
-    :class="`flex h-full w-full flex-col items-center bg-gradient-to-b pt-2 transition-colors md:pt-6 ${
+    :class="`flex h-full w-full flex-col justify-center items-center bg-gradient-to-b pt-2 transition-colors md:pt-6 ${
       showErrorAlert
         ? 'from-error-500 to-error-900 dark:from-error-800'
         : 'from-primary-500 to-primary-900 dark:from-primary-800 dark:to-primary-950'

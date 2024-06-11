@@ -89,16 +89,9 @@ watch(
 
 <template>
   <div
-    class="flex h-full w-full justify-center bg-gradient-to-b from-warn-500 to-warn-900 dark:from-warn-900 dark:to-warn-950 lg:mx-0"
+    class="flex flex-col h-full w-full justify-center items-center bg-gradient-to-b from-warn-500 to-warn-900 dark:from-warn-900 dark:to-warn-950 lg:mx-0"
   >
     <div class="relative z-10 w-[96%] md:w-[65%] lg:w-[50%]">
-      <!-- Start Header Icon -->
-      <div
-        class="absolute left-1/2 top-6 hidden h-28 w-28 -translate-x-1/2 transform items-center justify-center rounded-full bg-primary-500 lg:flex"
-      >
-        <FontAwesomeIcon icon="fa-solid fa-envelope-open-text" class="h-16 text-surface-0"></FontAwesomeIcon>
-      </div>
-      <!-- End Header Icon -->
       <Card class="mt-4 ring-2 ring-primary-500 md:mx-4 md:mt-8 lg:mt-16">
         <template #content>
           <div class="mx-2 flex flex-col items-center">

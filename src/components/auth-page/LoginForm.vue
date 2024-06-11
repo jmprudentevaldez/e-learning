@@ -132,7 +132,7 @@ const manageIfEmailIsPhoneNumber = (payload: LoginPayload) => {
 </script>
 
 <template>
-  <section class="bg-transparent">
+  <section class="lg:bg-transparent bg-primary-700 rounded-lg shadow-lg p-8 lg:p-4 lg:border">
     <div class="text-center text-surface-0 lg:text-surface-800">
       <div class="mb-2 mt-6 flex justify-center lg:hidden">
         <AppLogo color="light"></AppLogo>
